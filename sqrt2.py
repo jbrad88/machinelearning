@@ -1,8 +1,12 @@
 # This program calculates and prints to the screen the square root of 2 to 100 decimal places.
 
-x = float(2**(1/2))
+x = 2**(1/2)
 
-print(x)
+#str(x).ljust(100, '0')
+
+y = str(round(x, 2))
+
+print(y)
 
 
 # References:
